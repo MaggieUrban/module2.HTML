@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="logo" />
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="second_page.html">О компании</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#">Оставить заявку</a>
+      </nav>
+    </header>
+    <main>
+      <br />
+      <form action="" method="get">
+        <h1>Оставить заявку</h1>
+        <label
+          >Имя
+          <input type="text" placeholder="Введите имя" name="user_name" />
+        </label>
+        <br />
+        <br />
+        <label>
+          Почта
+          <input type="email" placeholder="Введите почту" name="user_email" />
+        </label>
+
+        <br />
+        <br />
+        <label>
+          Возраст
+          <input type="number" placeholder="Введите возраст" name="user_age" />
+        </label>
+        <br />
+        <br />
+        <label for="categary"> Выберите категорию</label>
+        <select id="categary" name="categary">
+          <option value="delivery">Доставка</option>
+          <option value="pay">Оплата</option>
+          <option value="quality">Качество продуктов</option>
+        </select>
+        <br />
+        <br />
+        <label for="comment">Напиши комментарий к заявке</label>
+        <br />
+        <textarea id="comment" cols="40" rows="5"></textarea>
+        <br />
+        <br />
+        <input type="submit" />
+      </form>
+    </main>
+    <footer>
+      <img src="/images/logo.png" alt="" />
+      <p>Связаться с нами</p>
+      <address>
+        Телефон горячей линии:
+        <a href="tel:+7 800 333 22 33">+7 800 333 22 33</a>
+      </address>
+      <address>
+        Электронная почта:
+        <a href="mailto:shop_online@mail.com">shop_online@mail.com</a>
+      </address>
+      <p>&copy; Shop_online, 2024</p>
+    </footer>
+  </body>
+</html>
